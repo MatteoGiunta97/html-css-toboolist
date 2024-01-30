@@ -1,21 +1,79 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #f6f8f9;
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     background-color: #ffff;
     padding: 10px 20px;
 }
 
-.title{
+.title {
     display: inline-block;
     vertical-align: middle;
 }
 
+.box {
+    width: 1000px;
+    padding-left: 185px;
+    padding-top: 50px;
+}
+
+.button {
+    padding: 4px 10px;
+    border-radius: 10%;
+    border: 0px;
+    margin-bottom: 30px;
+}
+
+.button-task {
+    background-color: rgb(111, 183, 238);
+    color: white;
+}
+
+.button-section {
+    border: solid 1px rgb(160, 160, 160);
+    color: rgb(186, 184, 184);
+}
+
+h4 {
+display: inline-block;
+}
+
+.tag{
+    display: inline-block;
+    background-color: rgb(111, 183, 238);
+    color: white;
+    border: solid 0px;
+    border-radius: 10px;
+    padding: 4px 6px;
+    text-align: center;
+    
+}
+
+.circle {
+    display: inline-block;
+    border: solid 1px black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.circle-check {
+    border: 1px solid green;
+    color: green;
+}
+
+.circle-noncheck {
+    border: 1px solid red;
+    color: red;
+}

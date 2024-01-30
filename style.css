@@ -85,7 +85,7 @@ display: inline-block;
 }
 
 .tag-goals{
-    background-color: violet;
+    background-color: rgb(117, 64, 174);
 }
 
 .tag-recruiting{
@@ -93,4 +93,10 @@ display: inline-block;
 }
 .tag-mobile{
     background-color: rgb(253, 106, 53);
+}
+.tag-sales{
+    background-color: rgb(162, 162, 48);
+}
+.tag-website{
+    background-color: palevioletred;
 }

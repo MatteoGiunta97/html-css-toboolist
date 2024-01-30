@@ -29,7 +29,7 @@ header {
     padding: 4px 10px;
     border-radius: 10%;
     border: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .button-task {
@@ -42,19 +42,12 @@ header {
     color: rgb(186, 184, 184);
 }
 
-h4 {
-display: inline-block;
+h3 {
+    margin-top: 30px;
 }
 
-.tag{
-    display: inline-block;
-    background-color: rgb(111, 183, 238);
-    color: white;
-    border: solid 0px;
-    border-radius: 10px;
-    padding: 4px 6px;
-    text-align: center;
-    
+h4 {
+display: inline-block;
 }
 
 .circle {
@@ -76,4 +69,28 @@ display: inline-block;
 .circle-noncheck {
     border: 1px solid red;
     color: red;
+}
+
+.tag{
+    display: inline-block;
+    color: white;
+    border: solid 0px;
+    border-radius: 10px;
+    padding: 4px 6px;
+    text-align: center;
+}
+
+.tag-editorial{
+    background-color: rgb(111, 183, 238);
+}
+
+.tag-goals{
+    background-color: violet;
+}
+
+.tag-recruiting{
+    background-color: rgba(64, 223, 223, 0.81);
+}
+.tag-mobile{
+    background-color: rgb(253, 106, 53);
 }

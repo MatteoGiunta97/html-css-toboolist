@@ -8,3 +8,14 @@ body{
     background-color: #f6f8f9;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    background-color: #ffff;
+    padding: 10px 20px;
+}
+
+.title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
